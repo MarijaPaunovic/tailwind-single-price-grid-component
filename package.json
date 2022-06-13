@@ -1,0 +1,23 @@
+{
+  "name": "tailwind-single-price-grid-component",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build-css": "tailwindcss build -i src/style.css -o dist/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MarijaPaunovic/tailwind-single-price-grid-component.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MarijaPaunovic/tailwind-single-price-grid-component/issues"
+  },
+  "homepage": "https://github.com/MarijaPaunovic/tailwind-single-price-grid-component#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.1.2"
+  }
+}
