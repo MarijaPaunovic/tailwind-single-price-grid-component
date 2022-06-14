@@ -18,3 +18,6 @@ Users should be able to:
 - Semantic HTML5 markup
 - Flexbox
 - Mobile-first workflow
+
+### Preview work
+https://marijapaunovic-single-price-grid-component.netlify.app/
