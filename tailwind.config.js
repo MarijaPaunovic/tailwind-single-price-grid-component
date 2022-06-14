@@ -4,6 +4,10 @@ module.exports = {
     './dist/index.html'
   ],
   theme: {
+    container: {
+      center: true,
+      padding: '1.5rem'
+    },
     extend: {
       screens: {
         xs: '375px',
@@ -21,6 +25,9 @@ module.exports = {
         lightGray: 'hsl(204, 43%, 93%)', // #e5eff5 - background
         grayishBlue: 'hsl(218, 22%, 67%)' // #98a6bd - text color
       },
+      fontFamily: {
+        body: ['Karla']
+      }
     },
   },
   plugins: [],

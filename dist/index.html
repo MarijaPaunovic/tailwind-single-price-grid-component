@@ -10,25 +10,33 @@
     <title>Frontend Mentor | Single Price Grid Component</title>
 </head>
 
-<body class="bg-lightGray">
+<body class="bg-lightGray font-body h-screen flex justify-center items-center flex-col mx-8">
 
-    <main>
-        <header class="bg-white">
-            <h1 class="text-primary-dark">Join our community</h1>
-            <p class="text-secondary">30-day, hassle-free money back guarantee</p>
-            <p class="text-grayishBlue">Gain access to our full library of tutorials along with expert code reviews.
+    <main class="rounded-md shadow-lg overflow-hidden md:shadow-2xl md:max-w-2xl md:flex md:flex-row md:flex-wrap">
+        <header class="bg-white container py-8 md:px-12 md:py-11 md:w-full">
+            <h1 class="text-primary-dark font-bold text-xl md:text-2xl">Join our community</h1>
+            <p class="text-secondary text-sm font-bold my-5 md:text-lg">30-day, hassle-free money back guarantee</p>
+            <p class="text-grayishBlue text-sm leading-7 md:text-base">Gain access to our full library of
+                tutorials along with expert
+                code
+                reviews.
                 Perfect for any developers
                 who are serious about honing their skills.</p>
         </header>
-        <section class="bg-primary-dark text-white">
-            <h2>Monthly Subscription</h2>
-            <p>$29 <span class="text-primary-light">per month</span></p>
-            <p>Full access for less than $1 a day</p>
-            <a href="#" class="bg-secondary">Sign Up</a>
+        <section class="bg-primary-dark text-white container py-6 md:px-12 md:py-11 md:w-1/2">
+            <h2 class="text-lg font-bold mb-4">Monthly Subscription</h2>
+            <p class="text-3xl font-bold flex items-center">$29 <span
+                    class="text-primary-light font-light text-base ml-2.5">per
+                    month</span>
+            </p>
+            <p class="mt-1.5 mb-5 md:mb-6">Full access for less than $1 a day</p>
+            <a href="#" class="bg-secondary text-center min-w-full block p-3.5 rounded-md font-bold hover:shadow-xl           hover:-translate-y-1
+            transition ease-in duration-200">Sign
+                Up</a>
         </section>
-        <section class="bg-primary-light text-white">
-            <h2>Why Us</h2>
-            <ul>
+        <section class="bg-primary-light text-white container py-6 md:px-12 md:py-11 md:w-1/2">
+            <h2 class="text-lg font-bold mb-4">Why Us</h2>
+            <ul class="text-lightGray text-sm">
                 <li>Tutorials by industry experts</li>
                 <li>Peer & expert code review</li>
                 <li>Coding exercises</li>
@@ -40,10 +48,10 @@
         </section>
     </main>
 
-    <footer>
+    <footer class="mt-5">
         <p class="attribution">
             Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
-            Coded by <a href="#">Marija Paunović</a>.
+            Coded by <a href="https://github.com/MarijaPaunovic" target="_blank">Marija Paunović</a>.
         </p>
     </footer>
 
